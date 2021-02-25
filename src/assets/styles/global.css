@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+  }
+  
+  html,
+  body,
+  #root {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(95, 66, 183, 1);
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #root{
+    display: grid;
+    grid-template: 10vh 60vh 90vh/3fr 2fr;
+    grid-template-areas: 
+    "h h"
+    "m m"
+    "f f"
+    ;
+  }
+  #mid{
+    grid:m;
+  }

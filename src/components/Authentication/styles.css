@@ -1,0 +1,138 @@
+#footer {
+    grid-area:f;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    width: 350px;
+    height: 490px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#signup-button {
+    background-color: #8D89FC;
+    color: #FFF;
+    display: flex;
+    font-size: 16px;
+    width: 253px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+    outline: #FFF;
+}
+
+#login-button {
+    background-color: #FFF;
+    color: #8D89FC;
+    display: flex;
+    font-size: 16px;
+    width: 253px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+    outline: #FFF;
+}
+
+#login-button:hover {
+    background-color: #c0c0c0c0;
+    color: #402499;
+
+}
+#signup-button:hover {
+    background-color: #402499;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin-bottom: 10px;
+}
+
+.user-input-container {
+    background-color: #FFF;
+    display: flex;
+    padding-left: 5%;
+    width: 253px;
+    height: 44px;
+    border: 1.5px solid #4723AE;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.user-input {
+    background-color: #FFF;
+    display: flex;
+    font-size: 16px;
+    width: 200px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: #FFF;
+}
+
+.add {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #4723AE;
+    color: #FFEE00;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    outline: #FFF;
+}
+
+.btn-true {
+    width: 74px;
+    height: 82px;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: #FFF;
+    cursor: pointer;
+}
+
+.btn-false {
+    width: 74px;
+    height: 82px;
+    background-color: #4723AE;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: #FFF;
+    cursor: pointer;
+}
+
+@media (max-width: 456px) {
+    #container {
+        width: 300px;
+    }
+  }
